@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cf383f</color>
+    <color name="colorPrimaryDark">#ac2e34</color>
+    <color name="colorAccent">#4e4d4e</color>
+    <color name="colorGradiantEnd">#c62f5a</color>
+    <color name="callButton1">#00C853</color>
+    <color name="callButton2">#26f47b</color>
+    <color name="almostWhite">#e1e1e1</color>
+</resources>

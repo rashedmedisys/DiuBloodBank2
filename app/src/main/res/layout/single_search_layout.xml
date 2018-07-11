@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/singleSearchUserImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/singleSearchUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/singleSearchUserImage"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/singleSearchUserImage"
+        android:text="Display Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/singleSearchUserArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/singleSearchUserName"
+        android:layout_below="@+id/singleSearchUserName"
+        android:text="Location"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/singleSearchUserGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/singleSearchUserName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:text="G+"
+        android:textAlignment="textEnd"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/singleSearchLastDonate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/singleSearchUserArea"
+        android:layout_below="@+id/singleSearchUserArea"
+        android:text="Last Donate: "
+        android:textAlignment="viewStart"
+        android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/relative_layout"
+    tools:context="com.diu.bloodbank.SearchResultActivity">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/searchResultAppBar"></include>
+
+    <Button
+        android:id="@+id/create_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Pdf"
+        android:layout_alignBottom="@+id/searchResultAppBar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/searchResultRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchResultAppBar"></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
